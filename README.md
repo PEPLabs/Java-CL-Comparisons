@@ -18,7 +18,7 @@ Tasks to complete within the `Compare.java` file:
 - [ ] Revise the return statement of the method named `isNotEqualTo` so that it uses a comparison operator to return the correct result.
 
 ## Running Tests
-If you look within the `src/test/java` folder, you will find the Java class `ParrotTest.java`. The `src/test/java` folder will contain your test files.  
+If you look within the `src/test/java` folder, you will find the Java class `CompareTest.java`. The `src/test/java` folder will contain your test files.  
 
 To run the tests, click on the Testing tab (test beaker icon on the left-hand side) and run the test cases by using the "Run Test" button (play icon). Please ensure that you do not already have the program running.
 
