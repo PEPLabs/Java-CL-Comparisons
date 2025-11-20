@@ -1,0 +1,90 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ComparatorsTest.java",
+      "testCases": [
+        {
+          "methodName": "isEqualTest1",
+          "label": "Verify isEqual returns true for equal values",
+          "description": "Checks that isEqual(1, 1) returns true."
+        },
+        {
+          "methodName": "isEqualTest2",
+          "label": "Verify isEqual returns false for different values",
+          "description": "Checks that isEqual(1, 2) returns false."
+        },
+        {
+          "methodName": "greaterThanTest1",
+          "label": "Verify greaterThan returns true when a > b",
+          "description": "Checks that greaterThan(2, 1) returns true."
+        },
+        {
+          "methodName": "greaterThanTest2",
+          "label": "Verify greaterThan returns false when a < b",
+          "description": "Checks that greaterThan(1, 2) returns false."
+        },
+        {
+          "methodName": "greaterThanTest3",
+          "label": "Verify greaterThan returns false when a == b",
+          "description": "Checks that greaterThan(2, 2) returns false."
+        },
+        {
+          "methodName": "lessThanTest1",
+          "label": "Verify lessThan returns true when a < b",
+          "description": "Checks that lessThan(1, 2) returns true."
+        },
+        {
+          "methodName": "lessThanTest2",
+          "label": "Verify lessThan returns false when a == b",
+          "description": "Checks that lessThan(2, 2) returns false."
+        },
+        {
+          "methodName": "lessThanTest3",
+          "label": "Verify lessThan returns false when a > b",
+          "description": "Checks that lessThan(2, 1) returns false."
+        },
+        {
+          "methodName": "greaterThanOrEqualToTest1",
+          "label": "Verify greaterThanOrEqualTo returns true when a > b",
+          "description": "Checks that greaterThanOrEqualTo(2, 1) returns true."
+        },
+        {
+          "methodName": "greaterThanOrEqualToTest2",
+          "label": "Verify greaterThanOrEqualTo returns true when a == b",
+          "description": "Checks that greaterThanOrEqualTo(2, 2) returns true."
+        },
+        {
+          "methodName": "greaterThanOrEqualToTest3",
+          "label": "Verify greaterThanOrEqualTo returns false when a < b",
+          "description": "Checks that greaterThanOrEqualTo(3, 4) returns false."
+        },
+        {
+          "methodName": "lessThanOrEqualToTest1",
+          "label": "Verify lessThanOrEqualTo returns true when a < b",
+          "description": "Checks that lessThanOrEqualTo(1, 2) returns true."
+        },
+        {
+          "methodName": "lessThanOrEqualToTest2",
+          "label": "Verify lessThanOrEqualTo returns true when a == b",
+          "description": "Checks that lessThanOrEqualTo(2, 2) returns true."
+        },
+        {
+          "methodName": "lessThanOrEqualToTest3",
+          "label": "Verify lessThanOrEqualTo returns false when a > b",
+          "description": "Checks that lessThanOrEqualTo(4, 2) returns false."
+        },
+        {
+          "methodName": "notEqualToTest1",
+          "label": "Verify notEqualTo returns false when values are equal",
+          "description": "Checks that notEqualTo(1, 1) returns false."
+        },
+        {
+          "methodName": "notEqualToTest2",
+          "label": "Verify notEqualTo returns true when values are different",
+          "description": "Checks that notEqualTo(1, 2) returns true."
+        }
+      ]
+    }
+  ]
+}
